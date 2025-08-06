@@ -87,7 +87,7 @@ export const Resume: React.FC = () => {
                     Harish-Portfolio
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Complete professional resume including experience, education, certifications, and portfolio.
+                    Complete professional resume including experience, education, certifications, and portfolio...
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {['PDF Format', 'Updated 2025', 'ATS Friendly'].map((tag) => (
