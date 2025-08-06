@@ -45,7 +45,7 @@ export const About: React.FC = () => {
             <div className="relative">
               <motion.div whileHover={{ scale: 1.05, rotate: 2 }} className="relative overflow-hidden rounded-2xl">
                 <LazyImage
-                src="/harishpic.jpg"
+                src="/harishimage.jpg"
                 alt="Harish P"
                 className="w-full h-96"
                 />
