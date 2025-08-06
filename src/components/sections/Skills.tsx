@@ -9,10 +9,10 @@ export const Skills: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<Skill['category']>('frontend');
   
   const categories = [
-    { key: 'frontend' as const, label: 'Frontend', color: 'from-blue-500 to-cyan-500' },
-    { key: 'backend' as const, label: 'Backend', color: 'from-purple-500 to-pink-500' },
+    { key: 'Data Engineer' as const, label: 'Data Engineer', color: 'from-blue-500 to-cyan-500' },
+    { key: 'Mern-stack' as const, label: 'Mern-stack', color: 'from-purple-500 to-pink-500' },
     { key: 'tools' as const, label: 'Tools & DB', color: 'from-green-500 to-emerald-500' },
-    { key: 'other' as const, label: 'Other', color: 'from-orange-500 to-red-500' }
+    { key: 'Communication Language' as const, label: 'Communication Language', color: 'from-orange-500 to-red-500' }
   ];
 
   const activeSkills = getSkillsByCategory(activeCategory);

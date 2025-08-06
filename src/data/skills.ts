@@ -1,32 +1,38 @@
 export interface Skill {
   name: string;
   level: number;
-  category: 'frontend' | 'backend' | 'tools' | 'other';
+  category: 'Data Engineer' | 'Mern-stack' | 'tools' | 'Communication Language';
 }
 
 export const skills: Skill[] = [
-  // Frontend
-  { name: 'HTML & CSS', level: 95, category: 'frontend' },
-  { name: 'Javascript', level: 70, category: 'frontend' },
-  { name: 'React.js', level: 65, category: 'frontend' },
-  { name: 'Tailwind CSS', level: 50, category: 'frontend' },
-  { name: 'MERN - Stack', level: 60, category: 'frontend' },
+  // Data Engineer
+  { name: 'Python', level: 80, category: 'Data Engineer' },
+  { name: 'Pandas & Numpy', level: 70, category: 'Data Engineer' },
+  { name: 'Mongodb', level: 65, category: 'Data Engineer' },
+  { name: 'ETL', level: 50, category: 'Data Engineer' },
+  { name: 'Data Visulaization', level: 70, category: 'Data Engineer' },
+  { name: 'SQL', level: 60, category: 'Data Engineer' },
   
-  // Backend
-  { name: 'Python', level: 80, category: 'backend' },
-  { name: 'Node.js', level: 70, category: 'backend' },
-  { name: 'FastAPI', level: 55, category: 'backend' },
-  { name: 'Express.js', level: 65, category: 'backend' },
-  { name: 'Django', level: 40, category: 'backend' },
+  // Mern-stack
+  { name: 'Python', level: 80, category: 'Mern-stack' },
+  { name: 'HTML & CSS', level: 95, category: 'Mern-stack' },
+  { name: 'Javascript', level: 60, category: 'Mern-stack' },
+  { name: 'React.js', level: 65, category: 'Mern-stack' },
+  { name: 'Tailwind CSS', level: 50, category: 'Mern-stack' },
+  { name: 'Node.js', level: 60, category: 'Mern-stack' },
+  { name: 'FastAPI', level: 55, category: 'Mern-stack' },
+  { name: 'Express.js', level: 65, category: 'Mern-stack' },
+  { name: 'Django', level: 40, category: 'Mern-stack' },
   
   // Tools & Other
   { name: 'AWS', level: 65, category: 'tools' },
-  { name: 'MongoDB', level: 75, category: 'tools' },
+  { name: 'MongoDB', level: 65, category: 'tools' },
   { name: 'Git', level: 70, category: 'tools' },
   
   // Other
-  { name: 'Machine Learning', level: 50, category: 'other' },
-  { name: 'Data Analysis', level: 80, category: 'other' },
+  { name: 'Tamil (C2)', level: 100, category: 'Communication Language' },
+  { name: 'English (B2)', level: 80, category: 'Communication Language' },
+  { name: 'Kanada (B2)', level: 90, category: 'Communication Language' }
 ];
 
 export const getSkillsByCategory = (category: Skill['category']) => 
