@@ -9,8 +9,8 @@ export const Resume: React.FC = () => {
   const handleDownload = () => {
     // In a real application, this would download the actual PDF
     const link = document.createElement('a');
-    link.href = '/HARISH P _resume data engineer.pdf'; // Replace with actual PDF URL
-    link.download = 'HARISH P _resume data engineer.pdf';
+    link.href = '/Haris.p resume.pdf'; // Replace with actual PDF URL
+    link.download = 'Haris.p resume.pdf';
     link.click();
   };
 
