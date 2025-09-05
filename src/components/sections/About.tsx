@@ -11,7 +11,7 @@ export const About: React.FC = () => {
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: 'Curiosity-Driven',
-      description: 'Always exploring full stack development, data engineering, and AI-powered innovations.'
+      description: 'Gen - AI to develop and trained models for innovative solutions.'
     },
     {
       icon: <Target className="w-8 h-8" />,
@@ -56,8 +56,8 @@ export const About: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4">
               {[
-                { number: '8+', label: 'Projects' },
-                { number: '1+', label: 'Years' },
+                { number: '10+', label: 'Projects' },
+                { number: '3+', label: 'Years' },
                 { number: '7+', label: 'Technologies' }
               ].map((stat, index) => (
                 <AnimatedSection
@@ -87,7 +87,7 @@ export const About: React.FC = () => {
                   Python, and AI tools. My interest in coding began with a desire to bring ideas to life through technology.
                 </p>
                 <p>
-                  I’ve developed systems ranging from hospital management to AI drug analysis and space debris tracking. My
+                  I’ve developed systems ranging from AI drug analysis and space debris tracking. My
                   skill set bridges intuitive UI design with robust backend systems and meaningful data insights.
                 </p>
                 <p>

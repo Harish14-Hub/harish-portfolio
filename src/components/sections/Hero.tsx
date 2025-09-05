@@ -96,7 +96,7 @@ export const Hero: React.FC = () => {
             className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed"
           >
             <TypewriterText 
-              text="Specializing in Python and JavaScript (MEAN stack) & Data Engineer, I build scalable web applications, and data-driven platforms that deliver real-world impact. Experienced in backend systems, API integration, and intelligent data pipelines."
+              text="Specializing in Python and JavaScript (MERN-stack) & Data Analyst, I build scalable web applications, and data-driven platforms that deliver real-world impact. Experienced in backend systems, API integration, and intelligent data pipelines."
               speed={50}
               startDelay={2500}
               showCursor={false}

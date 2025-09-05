@@ -1,17 +1,17 @@
 export interface Skill {
   name: string;
   level: number;
-  category: 'Data Engineer' | 'Mern-stack' | 'tools' | 'Communication Language';
+  category: 'Data Analyst' | 'Mern-stack' | 'tools' | 'Communication Language';
 }
 
 export const skills: Skill[] = [
   // Data Engineer
-  { name: 'Python', level: 80, category: 'Data Engineer' },
-  { name: 'Pandas & Numpy', level: 70, category: 'Data Engineer' },
-  { name: 'Mongodb', level: 65, category: 'Data Engineer' },
-  { name: 'ETL', level: 50, category: 'Data Engineer' },
-  { name: 'Data Visulaization', level: 70, category: 'Data Engineer' },
-  { name: 'SQL', level: 60, category: 'Data Engineer' },
+  { name: 'Python', level: 80, category: 'Data Analyst' },
+  { name: 'Pandas & Numpy', level: 70, category: 'Data Analyst' },
+  { name: 'Mongodb', level: 65, category: 'Data Analyst' },
+  { name: 'ETL', level: 50, category: 'DData Analyst' },
+  { name: 'Data Visulaization', level: 70, category: 'Data Analyst' },
+  { name: 'SQL', level: 60, category: 'Data Analyst' },
   
   // Mern-stack
   { name: 'Python', level: 80, category: 'Mern-stack' },

@@ -9,7 +9,7 @@ export const Skills: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<Skill['category']>('frontend');
   
   const categories = [
-    { key: 'Data Engineer' as const, label: 'Data Engineer', color: 'from-blue-500 to-cyan-500' },
+    { key: 'Data Analyst' as const, label: 'Data Analyst', color: 'from-blue-500 to-cyan-500' },
     { key: 'Mern-stack' as const, label: 'Mern-stack', color: 'from-purple-500 to-pink-500' },
     { key: 'tools' as const, label: 'Tools & DB', color: 'from-green-500 to-emerald-500' },
     { key: 'Communication Language' as const, label: 'Communication Language', color: 'from-orange-500 to-red-500' }

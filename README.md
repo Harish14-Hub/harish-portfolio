@@ -147,13 +147,4 @@ Replace placeholder images with your own:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Support
-
-For questions or support, please contact:
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
-
----
-
 Built with ❤️ using React.js and modern web technologies.
